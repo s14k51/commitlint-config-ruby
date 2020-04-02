@@ -4,11 +4,11 @@ Opinionated commitlint config for Node projects
 
 # Installation
 
-`npm i -D commitlint commitlint-config-ruby`
+`npm i -D @commitlint/cli commitlint-config-ruby`
 
 or
 
-`yarn add -D commitlint commitlint-config-ruby`
+`yarn add -D @commitlint/cli commitlint-config-ruby`
 
 # Usage
 
