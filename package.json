@@ -1,0 +1,13 @@
+{
+  "name": "commitlint-config-ruby",
+  "description": "Opinionated commitlint config for Node projects",
+  "version": "1.0.0-0",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@commitlint/config-conventional": "^8.3.4"
+  }
+}
