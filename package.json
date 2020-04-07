@@ -1,7 +1,7 @@
 {
   "name": "commitlint-config-ruby",
   "description": "Opinionated commitlint config for Node projects",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "index.js",
   "license": "MIT",
   "author": "s14k51 <s14k51@gmail.com>",
@@ -22,7 +22,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^8.3.4"
+    "@commitlint/config-angular": "^8.3.4",
+    "@commitlint/config-angular-type-enum": "^8.3.4"
   },
   "devDependencies": {
     "@types/jest": "^25.1.4",

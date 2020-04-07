@@ -1,6 +1,8 @@
+const typeEnum = require('@commitlint/config-angular-type-enum');
+
 module.exports = {
-  extends: ['@commitlint/config-conventional'],
+  extends: ['@commitlint/config-angular'],
   rules: {
-    'scope-case': [2, 'always', ['lower-case', 'upper-case', 'camel-case', 'kebab-case', 'pascal-case']],
+    'type-enum': [2, 'always', typeEnum.value().concat('chore')],
   },
 };

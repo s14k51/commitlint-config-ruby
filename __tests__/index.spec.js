@@ -3,9 +3,21 @@ const config = require('..');
 describe('config', () => {
   it('expected', () => {
     expect(config).toStrictEqual({
-      extends: ['@commitlint/config-conventional'],
+      extends: ['@commitlint/config-angular'],
       rules: {
-        'scope-case': [2, 'always', ['lower-case', 'upper-case', 'camel-case', 'kebab-case', 'pascal-case']],
+        'type-enum': [2, 'always', [
+          'build',
+          'ci',
+          'docs',
+          'feat',
+          'fix',
+          'perf',
+          'refactor',
+          'revert',
+          'style',
+          'test',
+          'chore',
+        ]],
       },
     });
   });
