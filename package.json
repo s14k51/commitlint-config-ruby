@@ -1,7 +1,7 @@
 {
   "name": "commitlint-config-ruby",
   "description": "Opinionated commitlint config for Node projects",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "main": "index.js",
   "license": "MIT",
   "author": "s14k51 <s14k51@gmail.com>",
@@ -10,7 +10,8 @@
     "commitlint-config"
   ],
   "files": [
-    "index.js"
+    "index.js",
+    "no-wip.js"
   ],
   "homepage": "https://github.com/s14k51/commitlint-config-ruby",
   "bugs": {
