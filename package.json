@@ -1,7 +1,7 @@
 {
   "name": "commitlint-config-ruby",
   "description": "Opinionated commitlint config for Node projects",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "main": "index.js",
   "license": "MIT",
   "author": "s14k51 <s14k51@gmail.com>",

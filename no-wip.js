@@ -5,6 +5,7 @@ const additionalTypes = ['chore'];
 const customTypes = [...angularTypes, ...additionalTypes];
 
 module.exports = {
+  defaultIgnores: false,
   extends: ['@commitlint/config-angular'],
   rules: {
     'type-enum': [2, 'always', customTypes],
