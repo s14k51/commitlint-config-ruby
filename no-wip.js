@@ -1,7 +1,7 @@
 const typeEnum = require('@commitlint/config-angular-type-enum');
 
 const angularTypes = typeEnum.value();
-const additionalTypes = ['chore', 'wip'];
+const additionalTypes = ['chore'];
 const customTypes = [...angularTypes, ...additionalTypes];
 
 module.exports = {
