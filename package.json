@@ -1,7 +1,7 @@
 {
   "name": "commitlint-config-ruby",
   "description": "Opinionated commitlint config for Node projects",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "index.js",
   "license": "MIT",
   "author": "s14k51 <s14k51@gmail.com>",
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "eslint": "^6.8.0",
-    "eslint-config-ruby": "^1.4.2",
+    "eslint-config-ruby": "^1.6.0",
     "jest": "^25.2.4",
     "jest-preset-ruby": "^1.0.0"
   }

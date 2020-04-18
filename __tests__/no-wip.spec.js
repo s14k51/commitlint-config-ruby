@@ -1,6 +1,6 @@
-const config = require('..');
+const config = require('../no-wip');
 
-describe('default config', () => {
+describe('no-wip config', () => {
   it('expected', () => {
     expect(config).toStrictEqual({
       extends: ['@commitlint/config-angular'],
@@ -17,7 +17,6 @@ describe('default config', () => {
           'style',
           'test',
           'chore',
-          'wip',
         ]],
       },
     });
