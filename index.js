@@ -1,12 +1,12 @@
-const typeEnum = require('@commitlint/config-angular-type-enum');
+const conventionalConfig = require('@commitlint/config-conventional');
 
-const angularTypes = typeEnum.value();
-const additionalTypes = ['chore', 'wip'];
-const customTypes = [...angularTypes, ...additionalTypes];
+const conventionalTypes = conventionalConfig.rules['type-enum'][2];
+const additionalTypes = ['wip'];
+const types = [...conventionalTypes, ...additionalTypes];
 
 module.exports = {
-  extends: ['@commitlint/config-angular'],
+  extends: ['@commitlint/config-conventional'],
   rules: {
-    'type-enum': [2, 'always', customTypes],
+    'type-enum': [2, 'always', types],
   },
 };
