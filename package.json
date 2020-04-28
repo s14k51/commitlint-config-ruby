@@ -23,7 +23,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^8.3.4"
+    "conventional-changelog-conventionalcommits": "^4.2.3",
+    "conventional-ruby-commit-types": "^2.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
