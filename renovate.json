@@ -3,6 +3,6 @@
     "config:base"
   ],
   "schedule": [
-    "after 5:00am and before 5:15am on saturday"
+    "after 5:00am and before 6:00am on saturday"
   ]
 }

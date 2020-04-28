@@ -1,12 +1,25 @@
-const conventionalConfig = require('@commitlint/config-conventional');
+const { types, configureWidths } = require('conventional-ruby-commit-types');
 
-const conventionalTypes = conventionalConfig.rules['type-enum'][2];
-const additionalTypes = ['wip'];
-const types = [...conventionalTypes, ...additionalTypes];
+const { maxHeaderWidth, maxLineWidth } = configureWidths();
 
 module.exports = {
-  extends: ['@commitlint/config-conventional'],
+  parserPreset: 'conventional-changelog-conventionalcommits',
   rules: {
+    'body-leading-blank': [1, 'always'],
+    'body-max-line-length': [2, 'always', maxLineWidth],
+    'footer-leading-blank': [1, 'always'],
+    'footer-max-line-length': [2, 'always', maxLineWidth],
+    'header-max-length': [2, 'always', maxHeaderWidth],
+    'scope-case': [2, 'always', 'lower-case'],
+    'subject-case': [
+      2,
+      'never',
+      ['sentence-case', 'start-case', 'pascal-case', 'upper-case'],
+    ],
+    'subject-empty': [2, 'never'],
+    'subject-full-stop': [2, 'never', '.'],
+    'type-case': [2, 'always', 'lower-case'],
+    'type-empty': [2, 'never'],
     'type-enum': [2, 'always', types],
   },
 };
