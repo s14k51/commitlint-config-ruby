@@ -1,7 +1,7 @@
 {
   "name": "commitlint-config-ruby",
   "description": "Opinionated commitlint config for Node projects",
-  "version": "2.3.0",
+  "version": "3.0.0",
   "main": "index.js",
   "license": "MIT",
   "author": "s14k51 <s14k51@gmail.com>",
@@ -23,16 +23,16 @@
     "test": "jest"
   },
   "dependencies": {
-    "conventional-changelog-conventionalcommits": "^4.2.3",
-    "conventional-ruby-commit-types": "^2.0.0"
+    "conventional-changelog-conventionalcommits": "^4.4.0",
+    "conventional-ruby-commit-types": "^3.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@types/jest": "^25.1.4",
-    "eslint": "^6.8.0",
+    "@commitlint/cli": "^11.0.0",
+    "@types/jest": "^26.0.14",
+    "eslint": "^7.10.0",
     "eslint-config-ruby": "^1.6.0",
-    "husky": "^4.2.5",
-    "jest": "^25.2.4",
+    "husky": "^4.3.0",
+    "jest": "^26.4.2",
     "jest-preset-ruby": "^1.0.0"
   }
 }
