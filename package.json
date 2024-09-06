@@ -23,7 +23,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "conventional-changelog-conventionalcommits": "^4.4.0",
+    "conventional-changelog-conventionalcommits": "^6.0.0",
     "conventional-ruby-commit-types": "^3.0.0"
   },
   "devDependencies": {
